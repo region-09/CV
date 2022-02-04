@@ -1,0 +1,52 @@
+body {
+  background-color: #120439;
+  height: 100%;
+  font-family: 'tradegothiclt-bold', sans-serif;
+}
+#toggled {
+  float: right;
+}
+#title_1 {
+  font-family: 'Teko', sans-serif;
+  font-size: 2.4em;
+  float: left;
+}
+#about, #projects, #contacts {
+  border: 2px solid #555555;
+  width: 90px;
+  margin-top: 7px;
+  float: right;
+  margin-right: 15px;
+}
+#about:hover, #projects:hover, #contacts:hover {
+  color: aliceblue;
+  background-color: #555555;
+}
+#nCollapse {
+  width: 100%;
+}
+h1 {
+  margin-top: 100px;
+  text-align: center;
+  font-family: 'ABeeZee', sans-serif;
+  font-size: 5em;
+  color:darkorange;
+}
+@media (max-width: 767px) {
+  #title_1 {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  #title_1 {
+    font-size: 2.8em;
+  }
+}
+@media (min-width: 1200px) {
+  #title_1 {
+    font-size: 3.5em;
+  }
+  #about, #projects, #contacts {
+    margin-top: 20px;
+  }
+}
