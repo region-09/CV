@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles1.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+</head>
+<body id="skelet">
+<header>
+    <nav class="navbar navbar-light fixed-top bg-light">
+        <div class="container">
+            <div id="nCollapse">
+                <h2 id="title_1">Personal Portfolio</h2>
+                <button id="home" type="button" class="btn d-none d-lg-block">Home</button>
+                <button id="about" type="button" class="btn d-none d-lg-block">About</button>
+                <button id="projects" type="button" class="btn d-none d-lg-block">Projects</button>
+                <a href="#foot">
+                    <button id="contacts" type="button" class="btn d-none d-lg-block">Contacts</button>
+                </a>
+                <button id="toggled" class="navbar-toggler btn d-block d-lg-none" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse d-lg-none" id="navbarToggleExternalContent">
+            <ul id="navlist" class="navbar-nav">
+                <a href="index.html"><li>Home</li></a>
+                <a href="index.html"><li href="#">About</li></a>
+                <a href="index.html"><li href="#" class="active">Projects</li></a>
+                <a href="index.html"><li href="#">Contacts</li></a>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="container" id="bod">
+    <div id="sokoban">
+        <h2>Sokoban</h2>
+        <p style="float: left; padding-right: 20px"><img src="images/1024x1024bb.png" height="200px" width="200px" border="1px"
+                                     alt="Pohui"></p>
+        <p>
+            The game is played on a board of squares, where each square is a floor or a wall. Some floor squares contain
+            boxes, and some floor squares are marked as storage locations.
+            The player is confined to the board and may move horizontally or vertically onto empty squares (never
+            through walls or boxes). The player can move a box by walking up to it and push it to the square beyond.
+            Boxes cannot be pulled, and they cannot be pushed to squares with walls or other boxes. The number of boxes
+            equals the number of storage locations. The puzzle is solved when all boxes are placed at storage locations.
+        </p>
+    </div>
+    <div id="snake">
+        <h2>Snake</h2>
+        <p style="float: left; padding-right: 20px"><img src="images/sn.jpg" height="200px" width="200px" border="1px"
+                                      alt="Pohui2"></p>
+        <p> The player controls a long, thin creature, resembling a snake, which roams around on a bordered plane,
+            picking up food (or some other item), trying to avoid hitting its own tail or the edges of the playing area.
+            Each time the snake eats a piece of food, its tail grows longer, making the game increasingly difficult. The
+            user controls the direction of the snake's head (up, down, left, or right), and the snake's body
+            follows.</p>
+    </div>
+    <div id="two048">
+        <h2>2048</h2>
+        <p style="float: left; padding-right: 20px"><img src="images/2048-game.png" height="200px" width="200px" border="1px"
+                                     alt="Pohui3"></p>
+        <p> 2048 is a game where you combine numbered tiles in order to gain a higher numbered tile. In this game you
+            start with two tiles, the lowest possible number available is two. Then you will play by combining the tiles
+            with the same number to have a tile with the sum of the number on the two tiles. A lot of strategies have
+            been devised in order to obtain the 2048 and be a winner in this game.</p>
+    </div>
+</div>
+<footer id="foot" class="bg-dark">
+    <div class="container">
+        <h2>Contact details! </h2>
+        <div class="row">
+            <section class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div>
+                    <a href="#" class="icon-github">
+                        <i class="fab fa-github"></i>
+                        Github
+                    </a>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div>
+                    <a href="#" class="icon-instagram">
+                        <i class="fab fa-google"></i>
+                        Gmail
+                    </a>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div>
+                    <a href="#" class="icon-linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </section>
+            <section class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <div>
+                    <a href="#" class="icon-facebook">
+                        <i class="fa fa-mobile"></i>
+                        Telephone
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div id="lowest">
+            <p>Feel free to contact me by any of the above options.</p>
+        </div>
+    </div>
+</footer>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
