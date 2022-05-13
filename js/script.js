@@ -26,4 +26,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     start_text_animation(0);
+    $(function () {
+      $("#toggled").blur(function (event) {
+        var screenWidth = window.innerWidth;
+        if (screenWidth < 768) {
+          $("#navbarToggleExternalContent").collapse('hide');
+        }
+      });
+    });
   });
