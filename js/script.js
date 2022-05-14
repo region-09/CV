@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         if (typeof dataText[i] == 'undefined') {
             setTimeout(function () {
                 start_text_animation(0);
-            }, 20000);
+            }, 10000);
         }
         if (i < dataText[i].length) {
             type(dataText[i], 0, function () {
